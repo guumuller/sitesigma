@@ -5,7 +5,7 @@ include_once './includes/_head.php';
 include_once './includes/_header.php';
 ?>
 
-<h1>Home</h1>
+<h1>Produtos</h1>
 
 <?php
 // include do footer
