@@ -11,6 +11,25 @@ include_once './includes/_header.php';
     <div class="row mt-5">
 
     <?php
+    $sql = "SELECT * From categorias WHERE Ativo = 1";
+
+    $exec = mysqli_query($conn,$sql);
+
+    $numProdutos = mysqli_num_rows($exec);
+
+    while ( $dados = mysqli_fetch_assoc($exec)) {
+        echo '<h1>'.$dados['Nome'].'</h1>';
+        
+    }
+
+
+
+
+
+
+
+
+
     for ($i=0; $i < 3 ; $i++){
     ?>
         

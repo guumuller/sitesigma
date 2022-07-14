@@ -1,22 +1,28 @@
 <?php
+include_once './includes/_banco.php';
+?>
+
+
+
+<?php
 
 $produtos = array(
-    0 => array('nome'=>'Capivara legal','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'capivaralegal.jpg'),
-    1 => array('nome'=>'Ornintorrinco','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'ornintorrinco.jpg'),
-    2 => array('nome'=>'Lagosta Boxeadora','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'superlagostaboxeadora.jpg'),
-    3 => array('nome'=>'SamuelVolpi','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'samuel.jpg'),
-    4 => array('nome'=>'Ewoks','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'Ewoks.jpg'),
-    5 => array('nome'=>'Jawa','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'jawa.jpg'),
-    6 => array('nome'=>'Chewbacca','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'capivaralegal.jpg'),
-    7 => array('nome'=>'baleia legal','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'capivaralegal.jpg'),
-    8 => array('nome'=>'leao legal','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'capivaralegal.jpg'),
-    9 => array('nome'=>'pantera legal','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'capivaralegal.jpg'),
-    10 => array('nome'=>'pantera legal','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'capivaralegal.jpg'),
-    11 => array('nome'=>'pantera legal','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'capivaralegal.jpg'),
-    12 => array('nome'=>'pantera legal','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'capivaralegal.jpg'),
-    13 => array('nome'=>'pantera legal','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'capivaralegal.jpg'),
-    14 => array('nome'=>'pantera legal','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'capivaralegal.jpg'),
-    16 => array('nome'=>'pantera legal','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'capivaralegal.jpg'),
+    0 => array('nome'=>'Capivara','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'capivaralegal.jpg'),
+    1 => array('nome'=>'Ornintorrinco','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'ornitorrinco.jpg'),
+    2 => array('nome'=>'Zebra','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'zebra.jpg'),
+    3 => array('nome'=>'Cachorro','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'cachorro.jpg'),
+    4 => array('nome'=>'Gato','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'gato.jpg'),
+    5 => array('nome'=>'Suricato','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'suricato.jpg'),
+    6 => array('nome'=>'Esquilo','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'esquilo.jpg'),
+    7 => array('nome'=>'Vaca','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'vaca.jpg'),
+    8 => array('nome'=>'Cavalo','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'cavalo.jpg'),
+    9 => array('nome'=>'Pantera','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'pantera.jpg'),
+    10 => array('nome'=>'Galinha','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'galinha.jpg'),
+    11 => array('nome'=>'Elefante','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'elefante.jpg'),
+    12 => array('nome'=>'Urso','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'urso.jpg'),
+    13 => array('nome'=>'Panda','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'panda.jpg'),
+    14 => array('nome'=>'Peixe','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'peixe.jpg'),
+    16 => array('nome'=>'Gorila','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'gorila.jpg'),
     17 => array('nome'=>'pantera legal','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'capivaralegal.jpg'),
     18 => array('nome'=>'pantera legal','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'capivaralegal.jpg'),
     19 => array('nome'=>'pantera legal','preco'=>'1.200','descricao'=>'capivara legal','imagem'=>'capivaralegal.jpg'),

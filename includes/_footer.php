@@ -1,3 +1,8 @@
+<?php
+include_once './includes/_banco.php';
+?>
+
+
 </main>
 
 
@@ -24,3 +29,7 @@
 </body>
 
 </html>
+
+<?php
+mysqli_close($conn);
+?>

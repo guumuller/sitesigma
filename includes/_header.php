@@ -1,3 +1,10 @@
+<?php
+include_once './includes/_banco.php';
+?>
+
+
+
+
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Sigma</a>
