@@ -40,5 +40,16 @@ $produtos = array(
 
 );
 
+// $sqlStr = "";
+
+// foreach ($produtos as $key => $value) {
+//     $nome = $value['nome'];
+//     $descricao = $value['descricao'];
+//     $imagem = $value['imagem'];
+//     $preco = $value ['preco'];
+//     $sqlStr = "$sqlStr<br>INSERT INTO `produtos` (`Nome`, `Descricao`, `Imagem`, `Preco`, `CategoriaID`, `Ativo`) VALUES ('$nome', '$descricao', '$imagem', '$preco', 1, 1); ";
+// }
+
+// echo $sqlStr;
 
 ?>
